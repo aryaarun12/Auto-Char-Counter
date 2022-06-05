@@ -1,12 +1,11 @@
 # VSCode - Automatic Character Counter README
  
-This is a simple extension that illustrates a number of concepts when it comes to writing extensions for VS Code.  
+This is a simple VS Code extension that automatically counts the number of characters in a file.  
 
-* Activation on a file type open
-* Contributing to the status bar
-* Subscribing to update events
-* Adding a test to your extension
-* Marking up the `package.json` so the gallery looks good
+## Installation
+
+* Clone this repo into your `.vscode/extensions/` folder 
+* Refresh your VS Code window
 
 ## Functionality
 
