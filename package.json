@@ -1,0 +1,25 @@
+{
+	"name": "wordcount",
+	"displayName": "Automatic Character counter",
+	"version": "0.1.0",
+	"description": "Automatic character counter",
+	"categories": [
+		"Other"
+	],
+	"icon": "logo.jpg",
+	"activationEvents": [
+		"*"
+	],
+	
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"main": "./out/extension",
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+	},
+	"devDependencies": {
+		"vscode": "0.10.x"
+	}
+}
