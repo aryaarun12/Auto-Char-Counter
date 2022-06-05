@@ -6,8 +6,7 @@ This is a simple VS Code extension that automatically counts the number of chara
 
 * Clone this repo into your `.vscode/extensions/` folder 
 * Refresh your VS Code window
+* The status bar will have an auto-updating character count in it
 
-## Functionality
 
-It's pretty simple open up a file and the status bar will have an auto-updating character count in it...
 
