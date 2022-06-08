@@ -4,10 +4,7 @@ var vscode_1 = require('vscode');
 // this method is called when your extension is activated. activation is
 // controlled by the activation events defined in package.json
 function activate(ctx) {
-    // Use the console to output diagnostic information (console.log) and errors (console.error)
-    // This line of code will only be executed once when your extension is activated
-    console.log('Congratulations, your extension "Wordcount" is now active!');
-    // create a new word counter
+   
     var wordCounter = new WordCounter();
     var controller = new WordCounterController(wordCounter);
     // add to a list of disposables which are disposed when this extension
